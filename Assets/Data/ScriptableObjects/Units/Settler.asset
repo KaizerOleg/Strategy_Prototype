@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c017502c2a8b734681e8b7dd4be695f, type: 3}
+  m_Name: Settler
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Settler
+  canFoundCity: 1
+  features:
+  - {fileID: 11400000, guid: 5dd72a2a484e5c241b21b4db031c41a4, type: 2}
+  - {fileID: 11400000, guid: c12289a531ef50d478759a66732dad3d, type: 2}
+  - {fileID: 11400000, guid: f4910cbdcb440a3439c0f968b50bab32, type: 2}
+  - {fileID: 11400000, guid: bdbc1c47b3767504ebd2ab7a70169549, type: 2}
+  description: Settler
+  technologyRequirement: {fileID: 11400000, guid: ec5c63efc4d54ad49805e983b959c772, type: 2}
+  productionCost: 100
+  movementRange: 3
+  maxHealth: 25
+  attack: 2
+  defense: 0
+  sprite: {fileID: 21300000, guid: 4f3043c270e334b29939385cb90e269f, type: 3}

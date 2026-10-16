@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a6624f9d63ade4595171fc9470a172, type: 3}
+  m_Name: Mountain
+  m_EditorClassIdentifier: Assembly-CSharp::TerrainData
+  terrainName: Mountain
+  description: 
+  movementCost: 5
+  isWalkable: 1
+  defenseBonus: 4
+  food: 1
+  production: 5
+  gold: 15
+  color: {r: 0.4245283, g: 0.33966213, b: 0.07008721, a: 1}
+  sprite: {fileID: -712631045867808456, guid: 8f5b4755068aa4847807a2c386ffa2ac, type: 3}
+  icon: {fileID: 0}
+  canGenerate: 1
+  isFallback: 0
+  minHeight: 0.75
+  maxHeight: 1
+  minMoisture: 0
+  maxMoisture: 1
+  priority: 50
+  spawnChance: 1

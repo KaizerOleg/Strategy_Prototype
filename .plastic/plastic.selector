@@ -1,0 +1,4 @@
+repository "StrategyPrototype/StrategyPrototype@7971711104140@cloud"
+  path "/"
+    br "/main"
+    co "/main"

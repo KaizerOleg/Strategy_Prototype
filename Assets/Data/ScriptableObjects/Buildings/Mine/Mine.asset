@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58ee25203a14f54ab8fe0f0ed67cabd, type: 3}
+  m_Name: Mine
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingData
+  buildingName: Mine
+  description: Mine
+  technologyRequirement: {fileID: 11400000, guid: f491189c789cd8c488dc0f6d990703e3, type: 2}
+  productionCost: 20
+  goldCost: 5
+  yieldBonus:
+    food: 0
+    production: 5
+    gold: 2
+    science: 0
+  requiresCity: 1
+  canBuildOnAnyTerrain: 1
+  allowedTerrains: []
+  sprite: {fileID: 3625043607559282579, guid: 52cca13f53b33c34bbde728caf378d11, type: 3}
