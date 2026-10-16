@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71063612b8114f444afb807f87c9d4e8, type: 3}
+  m_Name: NewFireAttackFeature
+  m_EditorClassIdentifier: Assembly-CSharp::FireAttackFeature
+  featureName: FireAttack
+  description: Fire attack that aplies 10 burn for 3 turns
+  featureType: 1
+  attackRange: 1
+  damage: 10
+  burnEffect: {fileID: 11400000, guid: 075fc283df9b38c4aa235616a6b6b48e, type: 2}
+  burnDuration: 3

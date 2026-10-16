@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426ee14d6d2d9e041b61ee01b552b512, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: Assembly-CSharp::CivilizationData
+  civilizationName: Base_Civilization
+  description: 'Base_Test_Civilization
+
+'
+  unitDatabase: {fileID: 11400000, guid: fbe36d9a31683f043af6499227117d98, type: 2}
+  buildingDatabase: {fileID: 11400000, guid: 07277d55bbd63134aa0cb7085f0c70a2, type: 2}
+  cityDatabase: {fileID: 11400000, guid: ce830227d0cafea4b89f343101af0983, type: 2}
+  technologyDatabase: {fileID: 11400000, guid: 6dd4885fb2f1a764381a3903730a047a, type: 2}
